@@ -2,7 +2,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	bulbasaur: {
 		num: 1,
 		name: "Bulbasaur",
-		types: ["Grass", "Poison"],
+		types: ["Fire", "Psychic"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 45, atk: 49, def: 49, spa: 65, spd: 65, spe: 45},
 		abilities: {0: "Overgrow", H: "Chlorophyll"},
@@ -15,7 +15,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	ivysaur: {
 		num: 2,
 		name: "Ivysaur",
-		types: ["Grass", "Poison"],
+		types: ["Fire", "Psychic"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 60, atk: 62, def: 63, spa: 80, spd: 80, spe: 60},
 		abilities: {0: "Overgrow", H: "Chlorophyll"},
@@ -30,7 +30,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	venusaur: {
 		num: 3,
 		name: "Venusaur",
-		types: ["Grass", "Poison"],
+		types: ["Fire", "Psychic"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 80, atk: 82, def: 83, spa: 100, spd: 100, spe: 80},
 		abilities: {0: "Overgrow", H: "Chlorophyll"},
